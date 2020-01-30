@@ -22,7 +22,7 @@ Feature: Pixel Store
 
     Examples: 
       | user    | password    |
-      | Lalitha | password123 |
+      | Lalitha | password1234 |
       | John    | Ravi123     |
 
   @datadriven
