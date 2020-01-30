@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 70588000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "sales executive logged into the machine",
+            "match": {
+              "location": "stepDef.CucumDefine.sales_executive_logged_into_the_machine()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T04:57:16.517Z",
+        "line": 29,
+        "name": "Search a product",
+        "description": "",
+        "id": "pixel-store;search-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 574000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "larry searches for products in the search field",
+            "match": {
+              "location": "stepDef.CucumDefine.larry_searches_for_products_in_the_search_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Head"
+                ]
+              },
+              {
+                "cells": [
+                  "Hand"
+                ]
+              },
+              {
+                "cells": [
+                  "Lap"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Larry verifies the product availability",
+            "match": {
+              "location": "stepDef.CucumDefine.larry_verifies_the_product_availability()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datadriven"
+          }
+        ]
+      }
+    ],
+    "name": "Pixel Store",
+    "description": "",
+    "id": "pixel-store",
+    "keyword": "Feature",
+    "uri": "file:demoCucumber.feature",
+    "tags": []
+  }
+]
